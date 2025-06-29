@@ -8,7 +8,7 @@
 
 body{
     width: 100%;
-    background-color: black;
+    background-color: dodgerblue;
 }
 
 header nav{
@@ -17,13 +17,14 @@ header nav{
     align-items: center;
     display: flex;
     position: fixed;
-    background-color: black;
+    background-color: rgb(30, 144, 255 0.1);
     z-index: 300;
     backdrop-filter: blur(30px);
     padding-left: 60px;
     top: 0;
     box-shadow: 0 0 5px gray;
     border-radius: 0 0 36px 36px;
+    text-align: center;
 }
 
 header nav h1{
@@ -43,13 +44,13 @@ header nav h2{
     display: flex;
     border-radius: 24px;
     cursor: pointer;
-    background-color: gray;
+    background-color: blue;
     color: white;
     border: 2px solid white;
 }
 
 header nav h2:hover{
-    background-color: black;
+    background-color: darkblue;
     transition: 1s;
 }
 
@@ -78,11 +79,22 @@ main .first .men-haqqimda{
     border-radius: 24px;
     padding-top: 100px;
     backdrop-filter: blur(33px);
-    background: gray;
+    background: blue;
     border: 2px solid white;
     height: auto;
     padding: 40px;
-    color: black;
+}
+
+main .first .men-haqqimda ul li span:nth-child(1){
+    color: orangered;
+}
+
+main .first .men-haqqimda ul li span:nth-child(2){
+    color: dodgerblue;
+}
+
+main .first .men-haqqimda ul li span:nth-child(3){
+    color: gold;
 }
 
 main .men-haqqimda h1{
@@ -144,7 +156,7 @@ b{
     padding: 40px;
     border-radius: 24px;
     border: 2px solid white;
-    background:gray;
+    background:blue;
 }
 
 .second .div h1{
@@ -172,7 +184,7 @@ b{
 .second .div .boxes .box{
     border: 2px solid white;
     height: 160px;
-    background: darkgray;
+    background: dodgerblue;
     color: white;
     align-items: center;
     padding-left: 35px;
@@ -196,12 +208,17 @@ b{
 .second .div .boxes .box button{
     width: 200px;
     border: 2px solid white;
-    background: black;
+    background: blue;
     color: white;
     height: 60px;
     border-radius: 4rem;
     cursor: pointer;
     font-size: 20px;
+}
+
+.second .div .boxes .box button:hover{
+    transition: 1s;
+    background-color: darkblue;
 }
 
 .fifth{
@@ -219,7 +236,7 @@ b{
     height: auto;
     border-radius: 16px;
     backdrop-filter: blur(20px);
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: blue;
     color: white;
     text-align: center;
     padding: 40px;
@@ -252,7 +269,7 @@ b{
     display: flex;
     padding: 20px;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: dodgerblue;
     margin-top: 20px;
     border-radius: 24px;
     cursor: pointer;
@@ -287,7 +304,7 @@ b{
 footer {
     width: 100%;
     height: 120px;
-    background: rgba(255, 255, 255, 0.1);
+    background: blue;
     color: white;
     align-items: center;
     justify-content: center;
