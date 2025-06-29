@@ -9,3 +9,9 @@ document.getElementById("scroll-btn2").addEventListener("click", function () {
         behavior: "smooth"
     });
 });
+
+document.getElementById("scroll-btn3").addEventListener("click", function () {
+    document.querySelector(".fifth").scrollIntoView({
+        behavior: "smooth"
+    });
+});
