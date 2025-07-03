@@ -52,6 +52,7 @@ header nav img{
 header nav h1{
     color: white;
     cursor: pointer;
+    text-align: center;
     font-size: 30px;
     margin-right: 180px;
 }
@@ -336,6 +337,15 @@ footer {
 
 /* ======= Mobil (max-width: 431px) ======= */
 @media (max-width: 431px) {
+    header nav .flags{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+    }
+
     header nav {
         flex-direction: column;
         height: auto;
@@ -344,7 +354,6 @@ footer {
         justify-content: center;
         display: flex;
         text-align: center;
-        position: sticky;
     }
 
     header nav h1 {
