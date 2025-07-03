@@ -27,11 +27,17 @@ header nav{
     text-align: center;
 }
 
+header nav img{
+    height: 25px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
 header nav h1{
     color: white;
     cursor: pointer;
     font-size: 30px;
-    margin-right: 400px;
+    margin-right: 180px;
 }
 
 header nav h2{
