@@ -7,7 +7,18 @@
 }
 
 .flags{
+    width: auto;
+    height: 40px;
     display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.h2lar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 body{
@@ -32,6 +43,7 @@ header nav{
 }
 
 header nav img{
+    width: 50px;
     height: 25px;
     cursor: pointer;
     margin-right: 30px;
