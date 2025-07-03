@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+.flags{
+    display: flex;
+}
+
 body{
     width: 100%;
     background-color: black;
