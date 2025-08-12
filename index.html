@@ -155,19 +155,25 @@
             <div class="container reveal-element">
                 <h2 class="section-title">Men bilan bog'laning</h2>
                 <div class="contact-content">
-                    <form class="contact-form" id="contactForm">
+                    <form name="contact" method="POST" data-netlify="true" class="contact-form" id="contactForm">
+                        <!-- Netlify form nomi uchun yashirin input -->
+                        <input type="hidden" name="form-name" value="contact">
+                    
                         <div class="form-group">
                             <label for="name">Ism</label>
                             <input type="text" id="name" name="name" required aria-label="Ismingiz">
                         </div>
+                    
                         <div class="form-group">
                             <label for="email">Email</label>
                             <input type="email" id="email" name="email" required aria-label="Elektron pochta manzilingiz">
                         </div>
+                    
                         <div class="form-group">
                             <label for="phone">Telefon</label>
                             <input type="tel" id="phone" name="phone" aria-label="Telefon raqamingiz">
                         </div>
+                    
                         <div class="form-group">
                             <label for="platform">Afzal ko'rilgan aloqa tarmoq</label>
                             <select id="platform" name="platform" aria-label="Afzal ko'rilgan aloqa tarmoq">
@@ -176,16 +182,20 @@
                                 <option value="instagram">Instagram</option>
                             </select>
                         </div>
+                    
                         <div class="form-group" id="instagramField" style="display: none;">
                             <label for="instagramNickname">Instagram Nickname</label>
                             <input type="text" id="instagramNickname" name="instagramNickname" aria-label="Instagram nicknamingiz">
                         </div>
+                    
                         <div class="form-group">
                             <label for="message">Xabar</label>
                             <textarea id="message" name="message" rows="5" required aria-label="Xabaringiz"></textarea>
                         </div>
+                    
                         <button type="submit">Yuborish</button>
                     </form>
+                    
                 </div>
             </div>
         </section>
