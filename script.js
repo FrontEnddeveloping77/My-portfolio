@@ -145,7 +145,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const messageValue = message.value;
 
     let telegramMessage =
-      `Yangi xabar!\n\n` +
+      `Yangi xabar! Tezroq bog'lan!\n\n` +
       `Ism: ${nameValue}\n` +
       `Email: ${emailValue}\n` +
       `Telefon: ${phoneValue || "Kiritilmagan"}\n` +
