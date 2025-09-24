@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="uz">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdulaziz Avazov | Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="main-header" id="nav">
         <div class="container nav-container">
@@ -49,9 +51,12 @@
                     <div class="about-text reveal-element">
                         <h3>Men Kimman?</h3>
                         <p>
-                            Men Abdulaziz, Namangandanman. 2024-yildan beri veb-dasturlash sohasida faoliyat yuritaman. Frontend dasturlashga bo'lgan ishtiyoqim meni doim yangi texnologiyalar o'rganishga undaydi. Men foydalanuvchilar uchun qulay, chiroyli va tez ishlaydigan veb-saytlar yaratishni yaxshi ko'raman.
+                            Men Abdulaziz, Namangandanman. 2024-yildan beri veb-dasturlash sohasida faoliyat yuritaman.
+                            Frontend dasturlashga bo'lgan ishtiyoqim meni doim yangi texnologiyalar o'rganishga undaydi.
+                            Men foydalanuvchilar uchun qulay, chiroyli va tez ishlaydigan veb-saytlar yaratishni yaxshi
+                            ko'raman.
                         </p>
-                        <h3>Mening ko'nikmalarim</h3>
+                        <h3>Mening ko'nikmalarim, Maxoratlarim</h3>
                         <div class="skills-list">
                             <div class="skill-item">
                                 <h4>HTML 95%</h4>
@@ -71,13 +76,19 @@
                                     <div class="skill-bar js-bar"></div>
                                 </div>
                             </div>
+                            <div class="skill-item">
+                                <h4>React 0%</h4>
+                                <div class="skill-bar-container">
+                                    <div class="skill-bar react-bar "></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- <section id="projects">
+        <section id="projects">
             <div class="container reveal-element">
                 <h2 class="section-title">Loyihalar</h2>
                 <div class="projects-grid">
@@ -131,7 +142,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <section id="services">
             <div class="container reveal-element">
@@ -141,6 +152,12 @@
                         <span class="icon">💻</span>
                         <h3>Veb-sayt yaratish</h3>
                         <p>Sizning talablaringiz asosida zamonaviy va funksional veb-saytlar yaratish.</p>
+                    </div>
+                    <div class="service-item reveal-element">
+                        <span class="icon">✨</span>
+                        <h3>Logotiplar yasash</h3>
+                        <p>Sizning talablaringiz va biznesingizdan kelib chiqgan xolda sizga eng zo'r va chiroyli
+                            logotiplar yasab beramiz.</p>
                     </div>
                     <div class="service-item reveal-element">
                         <span class="icon">✨</span>
@@ -158,22 +175,23 @@
                     <form name="contact" method="POST" data-netlify="true" class="contact-form" id="contactForm">
                         <!-- Netlify form nomi uchun yashirin input -->
                         <input type="hidden" name="form-name" value="contact">
-                    
+
                         <div class="form-group">
                             <label for="name">Ism</label>
                             <input type="text" id="name" name="name" required aria-label="Ismingiz">
                         </div>
-                    
+
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required aria-label="Elektron pochta manzilingiz">
+                            <input type="email" id="email" name="email" required
+                                aria-label="Elektron pochta manzilingiz">
                         </div>
-                    
+
                         <div class="form-group">
                             <label for="phone">Telefon</label>
                             <input type="tel" id="phone" name="phone" aria-label="Telefon raqamingiz">
                         </div>
-                    
+
                         <div class="form-group">
                             <label for="platform">Afzal ko'rilgan aloqa tarmoq</label>
                             <select id="platform" name="platform" aria-label="Afzal ko'rilgan aloqa tarmoq">
@@ -182,20 +200,21 @@
                                 <option value="instagram">Instagram</option>
                             </select>
                         </div>
-                    
+
                         <div class="form-group" id="instagramField" style="display: none;">
                             <label for="instagramNickname">Instagram Nickname</label>
-                            <input type="text" id="instagramNickname" name="instagramNickname" aria-label="Instagram nicknamingiz">
+                            <input type="text" id="instagramNickname" name="instagramNickname"
+                                aria-label="Instagram nicknamingiz">
                         </div>
-                    
+
                         <div class="form-group">
                             <label for="message">Xabar</label>
                             <textarea id="message" name="message" rows="5" required aria-label="Xabaringiz"></textarea>
                         </div>
-                    
+
                         <button type="submit">Yuborish</button>
                     </form>
-                    
+
                 </div>
             </div>
         </section>
@@ -203,7 +222,8 @@
 
     <footer class="main-footer">
         <div class="container">
-            <p class="copyright-text">© <span id="currentYear"></span> Abdulaziz Avazov. Barcha huquqlar himoyalangan.</p>
+            <p class="copyright-text">© <span id="currentYear"></span> Abdulaziz Avazov. Barcha huquqlar himoyalangan.
+            </p>
         </div>
     </footer>
 
@@ -216,4 +236,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
